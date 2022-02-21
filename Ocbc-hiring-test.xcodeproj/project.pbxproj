@@ -7,6 +7,19 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		664C6DFC27C12B9600D1E108 /* NetworkHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 664C6DFB27C12B9600D1E108 /* NetworkHelper.swift */; };
+		664C6DFF27C12BD900D1E108 /* AccountService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 664C6DFE27C12BD900D1E108 /* AccountService.swift */; };
+		664C6E0227C12C2D00D1E108 /* AccountModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 664C6E0127C12C2D00D1E108 /* AccountModel.swift */; };
+		664C6E0427C12DCB00D1E108 /* Constant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 664C6E0327C12DCB00D1E108 /* Constant.swift */; };
+		664C6E0727C130F600D1E108 /* AccountViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 664C6E0627C130F600D1E108 /* AccountViewModel.swift */; };
+		664C6E0927C1311B00D1E108 /* Bindable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 664C6E0827C1311B00D1E108 /* Bindable.swift */; };
+		668914B927C0ECB3003535F5 /* TransferViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 668914B827C0ECB3003535F5 /* TransferViewController.swift */; };
+		668E61B027C21DE60083C959 /* LoginService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 668E61AF27C21DE60083C959 /* LoginService.swift */; };
+		668E61B227C21ED60083C959 /* LoginModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 668E61B127C21ED60083C959 /* LoginModel.swift */; };
+		668E61B427C220930083C959 /* LoginViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 668E61B327C220930083C959 /* LoginViewModel.swift */; };
+		66A98E3627BF273400AE58AA /* AccountViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66A98E3527BF273400AE58AA /* AccountViewController.swift */; };
+		66A98E3927BF2B6000AE58AA /* HistoryTableviewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66A98E3827BF2B6000AE58AA /* HistoryTableviewCell.swift */; };
+		66A98E3D27BF43F000AE58AA /* HistoryDetailTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66A98E3C27BF43F000AE58AA /* HistoryDetailTableViewCell.swift */; };
 		66A99EF527BBF3AB00BC4BBC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66A99EF427BBF3AB00BC4BBC /* AppDelegate.swift */; };
 		66A99EF727BBF3AB00BC4BBC /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66A99EF627BBF3AB00BC4BBC /* SceneDelegate.swift */; };
 		66A99EF927BBF3AB00BC4BBC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66A99EF827BBF3AB00BC4BBC /* ViewController.swift */; };
@@ -17,6 +30,11 @@
 		66A99F0F27BBF3AD00BC4BBC /* Ocbc_hiring_testTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66A99F0E27BBF3AD00BC4BBC /* Ocbc_hiring_testTests.swift */; };
 		66A99F1927BBF3AD00BC4BBC /* Ocbc_hiring_testUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66A99F1827BBF3AD00BC4BBC /* Ocbc_hiring_testUITests.swift */; };
 		66A99F1B27BBF3AD00BC4BBC /* Ocbc_hiring_testUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66A99F1A27BBF3AD00BC4BBC /* Ocbc_hiring_testUITestsLaunchTests.swift */; };
+		66A99F2927BBF3F000BC4BBC /* CustomTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66A99F2827BBF3F000BC4BBC /* CustomTextField.swift */; };
+		66A99F2C27BBF41300BC4BBC /* Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66A99F2B27BBF41300BC4BBC /* Extension.swift */; };
+		66A99F2F27BBF48800BC4BBC /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66A99F2E27BBF48800BC4BBC /* LoginViewController.swift */; };
+		66A99F3127BBF4D700BC4BBC /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66A99F3027BBF4D700BC4BBC /* RegisterViewController.swift */; };
+		66A99F3327BBF71C00BC4BBC /* CustomButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66A99F3227BBF71C00BC4BBC /* CustomButton.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,6 +55,19 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		664C6DFB27C12B9600D1E108 /* NetworkHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkHelper.swift; sourceTree = "<group>"; };
+		664C6DFE27C12BD900D1E108 /* AccountService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountService.swift; sourceTree = "<group>"; };
+		664C6E0127C12C2D00D1E108 /* AccountModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountModel.swift; sourceTree = "<group>"; };
+		664C6E0327C12DCB00D1E108 /* Constant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constant.swift; sourceTree = "<group>"; };
+		664C6E0627C130F600D1E108 /* AccountViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountViewModel.swift; sourceTree = "<group>"; };
+		664C6E0827C1311B00D1E108 /* Bindable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Bindable.swift; sourceTree = "<group>"; };
+		668914B827C0ECB3003535F5 /* TransferViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransferViewController.swift; sourceTree = "<group>"; };
+		668E61AF27C21DE60083C959 /* LoginService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginService.swift; sourceTree = "<group>"; };
+		668E61B127C21ED60083C959 /* LoginModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginModel.swift; sourceTree = "<group>"; };
+		668E61B327C220930083C959 /* LoginViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewModel.swift; sourceTree = "<group>"; };
+		66A98E3527BF273400AE58AA /* AccountViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountViewController.swift; sourceTree = "<group>"; };
+		66A98E3827BF2B6000AE58AA /* HistoryTableviewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoryTableviewCell.swift; sourceTree = "<group>"; };
+		66A98E3C27BF43F000AE58AA /* HistoryDetailTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoryDetailTableViewCell.swift; sourceTree = "<group>"; };
 		66A99EF127BBF3AB00BC4BBC /* Ocbc-hiring-test.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Ocbc-hiring-test.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		66A99EF427BBF3AB00BC4BBC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		66A99EF627BBF3AB00BC4BBC /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -51,6 +82,11 @@
 		66A99F1427BBF3AD00BC4BBC /* Ocbc-hiring-testUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Ocbc-hiring-testUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		66A99F1827BBF3AD00BC4BBC /* Ocbc_hiring_testUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Ocbc_hiring_testUITests.swift; sourceTree = "<group>"; };
 		66A99F1A27BBF3AD00BC4BBC /* Ocbc_hiring_testUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Ocbc_hiring_testUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		66A99F2827BBF3F000BC4BBC /* CustomTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTextField.swift; sourceTree = "<group>"; };
+		66A99F2B27BBF41300BC4BBC /* Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extension.swift; sourceTree = "<group>"; };
+		66A99F2E27BBF48800BC4BBC /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		66A99F3027BBF4D700BC4BBC /* RegisterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
+		66A99F3227BBF71C00BC4BBC /* CustomButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomButton.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,6 +114,52 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		664C6DFD27C12BC700D1E108 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				664C6DFE27C12BD900D1E108 /* AccountService.swift */,
+				668E61AF27C21DE60083C959 /* LoginService.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		664C6E0027C12C2400D1E108 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				664C6E0127C12C2D00D1E108 /* AccountModel.swift */,
+				668E61B127C21ED60083C959 /* LoginModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		664C6E0527C130E500D1E108 /* View Model */ = {
+			isa = PBXGroup;
+			children = (
+				664C6E0627C130F600D1E108 /* AccountViewModel.swift */,
+				668E61B327C220930083C959 /* LoginViewModel.swift */,
+			);
+			path = "View Model";
+			sourceTree = "<group>";
+		};
+		668914BA27C12B4D003535F5 /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+				664C6DFB27C12B9600D1E108 /* NetworkHelper.swift */,
+				664C6E0327C12DCB00D1E108 /* Constant.swift */,
+				664C6E0827C1311B00D1E108 /* Bindable.swift */,
+			);
+			path = Helper;
+			sourceTree = "<group>";
+		};
+		66A98E3727BF278100AE58AA /* View */ = {
+			isa = PBXGroup;
+			children = (
+				66A98E3827BF2B6000AE58AA /* HistoryTableviewCell.swift */,
+				66A98E3C27BF43F000AE58AA /* HistoryDetailTableViewCell.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
 		66A99EE827BBF3AB00BC4BBC = {
 			isa = PBXGroup;
 			children = (
@@ -101,6 +183,14 @@
 		66A99EF327BBF3AB00BC4BBC /* Ocbc-hiring-test */ = {
 			isa = PBXGroup;
 			children = (
+				664C6E0527C130E500D1E108 /* View Model */,
+				664C6E0027C12C2400D1E108 /* Model */,
+				664C6DFD27C12BC700D1E108 /* Services */,
+				66A98E3727BF278100AE58AA /* View */,
+				66A99F2D27BBF47C00BC4BBC /* Controllers */,
+				66A99F2A27BBF40800BC4BBC /* Extensions */,
+				66A99F2727BBF3D700BC4BBC /* Helper View */,
+				668914BA27C12B4D003535F5 /* Helper */,
 				66A99EF427BBF3AB00BC4BBC /* AppDelegate.swift */,
 				66A99EF627BBF3AB00BC4BBC /* SceneDelegate.swift */,
 				66A99EF827BBF3AB00BC4BBC /* ViewController.swift */,
@@ -128,6 +218,34 @@
 				66A99F1A27BBF3AD00BC4BBC /* Ocbc_hiring_testUITestsLaunchTests.swift */,
 			);
 			path = "Ocbc-hiring-testUITests";
+			sourceTree = "<group>";
+		};
+		66A99F2727BBF3D700BC4BBC /* Helper View */ = {
+			isa = PBXGroup;
+			children = (
+				66A99F2827BBF3F000BC4BBC /* CustomTextField.swift */,
+				66A99F3227BBF71C00BC4BBC /* CustomButton.swift */,
+			);
+			path = "Helper View";
+			sourceTree = "<group>";
+		};
+		66A99F2A27BBF40800BC4BBC /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				66A99F2B27BBF41300BC4BBC /* Extension.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		66A99F2D27BBF47C00BC4BBC /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				66A99F2E27BBF48800BC4BBC /* LoginViewController.swift */,
+				66A99F3027BBF4D700BC4BBC /* RegisterViewController.swift */,
+				66A98E3527BF273400AE58AA /* AccountViewController.swift */,
+				668914B827C0ECB3003535F5 /* TransferViewController.swift */,
+			);
+			path = Controllers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -261,10 +379,28 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				664C6DFC27C12B9600D1E108 /* NetworkHelper.swift in Sources */,
+				668E61B227C21ED60083C959 /* LoginModel.swift in Sources */,
+				668E61B427C220930083C959 /* LoginViewModel.swift in Sources */,
+				664C6E0427C12DCB00D1E108 /* Constant.swift in Sources */,
+				664C6E0927C1311B00D1E108 /* Bindable.swift in Sources */,
+				668914B927C0ECB3003535F5 /* TransferViewController.swift in Sources */,
+				66A99F2F27BBF48800BC4BBC /* LoginViewController.swift in Sources */,
+				664C6E0727C130F600D1E108 /* AccountViewModel.swift in Sources */,
+				664C6DFF27C12BD900D1E108 /* AccountService.swift in Sources */,
+				668E61B027C21DE60083C959 /* LoginService.swift in Sources */,
 				66A99EF927BBF3AB00BC4BBC /* ViewController.swift in Sources */,
+				66A99F3327BBF71C00BC4BBC /* CustomButton.swift in Sources */,
+				66A98E3927BF2B6000AE58AA /* HistoryTableviewCell.swift in Sources */,
 				66A99EF527BBF3AB00BC4BBC /* AppDelegate.swift in Sources */,
+				66A99F3127BBF4D700BC4BBC /* RegisterViewController.swift in Sources */,
+				66A98E3D27BF43F000AE58AA /* HistoryDetailTableViewCell.swift in Sources */,
 				66A99EF727BBF3AB00BC4BBC /* SceneDelegate.swift in Sources */,
+				664C6E0227C12C2D00D1E108 /* AccountModel.swift in Sources */,
+				66A98E3627BF273400AE58AA /* AccountViewController.swift in Sources */,
+				66A99F2C27BBF41300BC4BBC /* Extension.swift in Sources */,
 				66A99EFF27BBF3AB00BC4BBC /* Ocbc_hiring_test.xcdatamodeld in Sources */,
+				66A99F2927BBF3F000BC4BBC /* CustomTextField.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
